@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 interface A{
     int show(int a);
 }
-public class Main
+public class LambdaExpressions
 {
 	public static void main(String[] args) {
         A a1=(a)->a*a;
